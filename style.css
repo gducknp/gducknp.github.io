@@ -1,0 +1,14 @@
+:root { --bg: #f5f7fb; --card: #ffffff; --text: #1c1c1e; --muted: #6e6e73; --accent: #007aff; --border: rgba(60,60,67,.14); }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Kanit", "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+header { background: var(--card); border-bottom: 1px solid var(--border); }
+nav { max-width: 860px; margin: 0 auto; padding: 14px 16px; display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+nav .brand { font-weight: 600; margin-right: auto; color: var(--text); text-decoration: none; }
+nav a { color: var(--accent); text-decoration: none; font-size: 15px; }
+main { max-width: 860px; margin: 24px auto; padding: 28px 24px; background: var(--card); border: 1px solid var(--border); border-radius: 18px; }
+h1 { font-size: 26px; margin: 0 0 4px; }
+h2 { font-size: 18px; margin: 26px 0 6px; }
+.updated { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+ul { padding-left: 22px; }
+footer { text-align: center; color: var(--muted); font-size: 13px; padding: 10px 16px 30px; }
+@media (max-width: 600px) { main { margin: 12px; padding: 20px 16px; } }
